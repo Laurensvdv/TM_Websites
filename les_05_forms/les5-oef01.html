@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>les5_oef1</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        form{
+            width: 40%;
+            background-color: red;
+        }
+        .untouched::placeholder{
+            background-color: lightblue;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="post"></form>
+        <div>
+            <label for="first name">Voornaam: </label>
+        </div>
+        <div>
+            <input type="text" id="first name" name="first name" placeholder="Voornaam" class="untouched">
+        </div>
+        <div>
+            <label for="first name">Familienaam: </label>
+        </div>
+        <div>
+            <input type="text" id="last name" name="last name" placeholder="Familienaam" class="untouched">
+        </div>
+        <div>
+            <input type="submit" value="Registreren">
+        </div>
+    </form>
+</body>
+</html>
