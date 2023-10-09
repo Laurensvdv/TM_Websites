@@ -7,27 +7,40 @@
 
     <style>
         html{
-            background: url(kompass-karte.jpeg) no-repeat center center fixed;
+            background: url(../Pictures/kompas.jpg) no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -moz-background-size: cover;
             background-size: cover;
         }
+        div{
+            padding: 1rem;
+        }
         .north{
-            position: absolute 50% 50% 50% 50%;
+            position: fixed;
+            left: 50%;
+            background-color: wheat;
         }
         .east{
-
+            position: fixed;
+            top: 50%;
+            right:0;
+            background-color: wheat;
         }
         .south{
-
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            background-color: wheat;
         }
         .west{
+            position: fixed;
+            top: 50%;
+            background-color: wheat;
         }
     </style>
 </head>
 <body>
-    <div class="compass"></div>
     <div class="north">Noord</div>
     <div class="east">Oost</div>
     <div class="south">Zuid</div>
